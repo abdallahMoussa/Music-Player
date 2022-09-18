@@ -1,0 +1,103 @@
+
+<html>
+    <head>
+        <title>Music Player</title>
+	<Link rel ="stylesheet" href="style.css" />
+        <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/js/brands.min.js"></script>
+  	<script src="https://code.jquery.com/jquery-2.2.4.js" integrity="sha256-iT6Q9iMJYuQiMWNd9lDyBUStIq/8PuOW33aOqmvFpqI=" crossorigin="anonymous"></script>
+        <script src="script.js"></script>
+    </head>
+    <body>
+        <div class="container">
+            
+            <div class="body">
+                <div class="singer">
+                    <div class="img">
+                        
+                    </div>
+                    <div class="extentions">
+                        <i class="fas fa-heart" id="like" title="like"></i>
+                        <i class="fas fa-heart" id="dislike" title="disLike"></i>
+                        <i class="fa fa-share-square" title="share"></i>
+                        <i class="fas fa-comment" title="comment"></i>
+                        <i class="fas fa-download" title="download"></i>
+                    </div>
+                    <div class="names">
+                        <span id="song-name"></span>
+                        
+                        <br>
+                        <span id="singer-name"></span>
+                        
+                    </div>
+                </div>
+                
+                <div class="other_songs">
+                    <div class="other_cont">
+                        <div class="prev">
+                            <i class="fas fa-backward" title="previous"></i>
+                        </div>
+                        <div class="songs">
+                            <div class="song"></div>
+                            <div class="song songActive"></div>
+                            <div class="song"></div>
+                            <div class="song"></div>
+                            <div class="song"></div>
+                            <div class="song"></div>
+                            
+                        </div>
+                       
+                        <div class="next">
+                             <i class="fas fa-forward" title="next"></i>
+                        </div>
+                    </div>
+                  
+                </div>
+                
+                <div class="playing">
+                    <hr>
+                    <div>
+                        <div class="playLine">
+                            
+                            
+                            <audio></audio>
+                            <i class="fas fa-play"></i>
+                            <i class="fas fa-pause"></i>
+                            <div class="range">
+                                <div class="cell"></div>
+                                <div class="cell" style="height:2px"></div>
+                                <div class="cell" style="height:4px"></div>
+                            </div>
+                        </div>
+                        
+                        <div class="volume">
+                            <i class="fas fa-volume-slash" id="volume-off" title="ummute"></i>
+                            <i class="fas fa-volume" id="volume-on" title="mute"></i>
+                           
+                            <div class="volCell"></div>
+                        </div>
+                        <div class="time">
+                            <span class="cur-time">00:00</span><i> ~</i>
+                            <span class="len-time">00:00</span>
+                        </div>
+                    </div>
+                </div>
+               
+                <div class="color-setting">
+                    <i class="fas fa-palette" alt="off"></i>
+                    <div class="themes">
+                        <div class="theme"></div>
+                        <div class="theme"></div>
+                        <div class="theme"></div>
+                        <div class="theme"></div>
+                        <div class="theme"></div>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+        <div class="alert">
+            <span>Feature doesn`t developed yet.</span>
+        </div>
+    </body>
+</html>
