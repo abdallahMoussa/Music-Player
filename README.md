@@ -8,4 +8,5 @@ Music Player with playlist and multicolor themes
 - JS
 - jQuery
 
-# Live DEMO: https://music-player-eight-hazel.vercel.app/
+# Live DEMO:
+https://music-player-eight-hazel.vercel.app/
