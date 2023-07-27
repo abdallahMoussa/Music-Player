@@ -9,7 +9,8 @@
     min-height: 800px;
     height:100vh;
     margin: auto;
-    padding-top: 100px;
+    dispaly:flex;
+    justify-content: center;
      background: linear-gradient(to bottom right ,beige,darkcyan);
     
 }
