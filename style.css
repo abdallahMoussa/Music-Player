@@ -17,7 +17,7 @@
 .body{
     width: 340px;
     height: 420px;
-       transform:translateY(-50%);
+       transform:translateY(-210px);
     background-color: rgba(0,0,0,.8);
     border-radius: 20px 5px;
     box-shadow: 3px 3px 15px black; 
