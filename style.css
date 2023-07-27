@@ -10,7 +10,6 @@
     height:100vh;
     dispaly:flex;
     padding-top:50%;
-    transform:translateY(-50%);
     justify-content: center;
      background: linear-gradient(to bottom right ,beige,darkcyan);
     
@@ -18,6 +17,7 @@
 .body{
     width: 340px;
     height: 420px;
+       transform:translateY(-50%);
     background-color: rgba(0,0,0,.8);
     border-radius: 20px 5px;
     box-shadow: 3px 3px 15px black; 
