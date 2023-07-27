@@ -8,7 +8,6 @@
     width: 100%;
     min-height: 800px;
     height:100vh;
-    margin: auto;
     dispaly:flex;
     justify-content: center;
      background: linear-gradient(to bottom right ,beige,darkcyan);
@@ -20,7 +19,7 @@
     background-color: rgba(0,0,0,.8);
     border-radius: 20px 5px;
     box-shadow: 3px 3px 15px black; 
-    margin: auto
+    margin: 100px auto;
 }
 
 .singer{
